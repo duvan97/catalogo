@@ -1,0 +1,88 @@
+*{
+	text-decoration:none;
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	text-align: center;
+	width: 960px;
+	margin: 15px auto;	
+}
+header img{
+	width: 400px;
+	height: 180px;
+}
+#top{
+
+	border: 0px solid #999999;
+	padding: 0px;
+	color: bold;
+}
+
+
+#nav {
+	background: #3B89E3;
+	text-align: center;
+	color: white;
+	text-shadow: 1px 1px 1px #000000;
+} 
+#nav li{
+	display: inline-block;
+	padding: 10px;
+	font: bold 14px verdana, sans-serif;
+	color: white;
+	width: 100px;
+	position:relative;
+}
+
+#nav li:hover {
+	background: #2F3740;
+	width: 100px; 
+	color: #3B89E3;
+	background: none repeat scroll 0 0 #121212;
+}
+
+
+#nav ul li  a{
+	color: white;
+}
+#nav ul {
+    background-color: #222;
+    border:1px solid #222;
+    border-radius: 0 5px 5px 5px;
+    border-width: 0 1px 1px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+
+#nav li:hover > a {
+    color: #00B4FF;
+}
+
+.form{
+	margin: 2em;
+}
+.form input{
+	margin-bottom: 18px;
+	margin-right: 11em;
+	padding: 5px;
+}
+.fas{
+	padding: 9px;
+}
+
+.form ul li{
+	color: red;
+	margin-right: 7em;
+}
+input:focus{
+	border-style:solid;
+	border-color:#3B89E3;
+}
+.form label[for=id_Texto]{
+	padding: 23px;
+}
+.pagination li {
+	display: inline-block;
+}
